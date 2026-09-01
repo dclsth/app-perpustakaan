@@ -45,13 +45,14 @@ php artisan key:generate
 - Buka pgAdmin atau terminal PostgreSQL, lalu buat database baru bernama: app-perpustakaan
 
 - Buka file .env di VS Code, lalu sesuaikan konfigurasi koneksi PostgreSQL berikut:
-
+```bash
 DB_CONNECTION=pgsql
 DB_HOST=127.0.0.1
 DB_PORT=5432
 DB_DATABASE=app_perpustakaan
 DB_USERNAME=postgres
 DB_PASSWORD=password_postgres_kamu
+```
 
 ```bash
 
