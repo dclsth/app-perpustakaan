@@ -67,6 +67,17 @@ php artisan serve
 - Akses aplikasi melalui browser di:
 [http://127.0.0.1:8000](http://127.0.0.1:8000)
 
-## Selamat Mencoba! ##
+---
+
+## 🧠 Konsep Arsitektur (MVC)
+- **Model       :** Bertugas mengelola struktur data dan logika bisnis yang berinteraksi dengan database (PostgreSQL).
+- **View        :** Bertugas menampilan antarmuka (UI) berbasis template Blade yang dilihat dan digunakan oleh pengguna.
+- **Controller  :** Bertugas sebagai perantara yang menerima request pengguna, memproses logika data melalui Model, dan mengembalikan hasilnya ke View
+
+---
+
+### SELAMAT BELAJAR! ###
+
+---
 
 
