@@ -19,7 +19,7 @@
                 <th>Stok</th>
                 <th>Kategori</th>
                 <th>Aksi</th>
-                <th>ID Kategori</th>
+                <th>Kategori</th>
 
             </tr>
         </thead>
@@ -44,7 +44,7 @@
                             <button type="submit">Hapus</button>
                         </form>
                     </td>
-                    <td>{{ $book['category_id'] }}</td>
+                    <td>{{ $book['category']['nama_kategori'] }}</td>
                 </tr>
             @empty
                 <tr>
