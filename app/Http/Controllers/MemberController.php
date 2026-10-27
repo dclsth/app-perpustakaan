@@ -6,6 +6,7 @@ use App\Models\Member;
 use Illuminate\Http\Request;
 use App\Http\Requests\StoreMemberRequest;
 
+
 class MemberController extends Controller
 {
     public function index()
